@@ -1,0 +1,46 @@
+.cards{
+    border: 2px solid black;
+    box-shadow: 4px 5px 6px rgb(61, 52, 52);
+    border-radius: 20px;
+    width: 24vw;
+    height: 63vh;
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+}
+.img{
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 2px 2px 2px grey;
+    height: 35vh;
+    width: 23vw;
+}
+
+/*For screens upto 576px*/
+@media (max-width: 576px){
+    .cards{
+        width: 71vw;
+    }
+    .img{
+        width: 65vw;
+    }
+}
+
+/*For screens between 576px and 768px*/
+@media (max-width: 768px) and (min-width:576px){
+    .cards{
+        width: 42vw;
+    }
+    .img{
+        width: 36vw;
+    }
+}
+
+/*For screens between 768px and 992px*/
+@media (max-width: 992px) and (min-width:768px){
+    .cards{
+        width: 30vw;
+    }
+    .img{
+        width: 36vw;
+    }
+}

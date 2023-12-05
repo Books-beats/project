@@ -1,0 +1,10 @@
+.active{
+    border-bottom: 2px solid white;
+    font-weight: bold;
+    }
+  
+    
+   .d-flex::-webkit-scrollbar{
+    display:none;
+   }
+   
